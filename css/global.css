@@ -26,32 +26,9 @@
 }
 
 @media(max-width: 720px){
-    .container-start span{
-		font-size: 50px;
-	}
-	.container-start h3{
-		text-align: center;
-		font-size: 100px;
-	}
-	.container-start h6{
-		text-align: center;
-		font-size: 50px;
-	}
-}
-}
-
-@media only screen and (max-width: 600px) {
-    .container-start span{
-		font-size: 50px;
-	}
-	.container-start h3{
-		text-align: center;
-		font-size: 100px;
-	}
-	.container-start h6{
-		text-align: center;
-		font-size: 50px;
-	}
+    html{
+        font-size: 87.5%;
+    }
 }
 
 body{
@@ -77,5 +54,3 @@ footer{
 	font-size:15px;
 	font-weight: bold;
 }
-
-
