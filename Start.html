@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GAME COVIDÁRIO</title>
+		<style>
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<style>
+				canvas {
+					border: 1px solid #d3d3d3;
+					background-color: #f1f1f1;
+				}
+			</style>
+
+			<link rel="preconnect" href="https://fonts.gstatic.com">
+			<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
+			<link rel="stylesheet" href="css/global.css">
+			<link rel="stylesheet" href="css/main.css">
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+				integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+		</style>
+	</head>
+	<body>
+		<h1 style="text-align:center; color:rebeccapurple">GAME <br>COVIDÁRIO</h1>
+		<p style="text-align:center">Selecione o nivel do jogo:</p>
+		<br/><br/>
+		<table style="width:100%;">
+		  <tr style="text-align:center">
+			<td style="cursor:pointer;" onclick="GameGado()">
+				<b>GADO</b><br>
+				<img src="boi.png" />
+			</td>
+			<td style="cursor:pointer;" onclick="GameJacare()">
+				<b>JACARÉ</b><br>
+				<img src="jacare.png" />
+			</td>
+		  </tr>
+		</table>
+		
+		<br/><br/>
+		<footer>
+		  <p>Desenvolvido por: Adriwil Studio<br>
+		  <a href="mailto:adriwilca@gmail.com">adriwilca@gmail.com</a></p>
+		  <p>Designer: Matheus Rizzo<br>
+		</footer>
+		
+		<script>
+			function GameGado() {
+			  window.location.href = "GameGado.html";
+			}
+			function GameJacare() {
+			  window.location.href = "GameJacare.html";
+			}
+		</script>		
+	</body>
+</html>
