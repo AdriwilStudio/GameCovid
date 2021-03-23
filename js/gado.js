@@ -15,8 +15,8 @@ function startGame() {
 var myGameArea = {
     canvas: document.createElement("canvas"),
     start: function () {
-        this.canvas.width = 480;
-        this.canvas.height = 300;
+        this.canvas.width = 300;
+        this.canvas.height = 200;
         this.context = this.canvas.getContext("2d");
         document.getElementById('game').prepend(this.canvas);
         this.frameNo = 0;
@@ -108,7 +108,7 @@ function updateGameArea() {
     if (myGameArea.frameNo == 1 || everyinterval(150)) {
         x = myGameArea.canvas.width;
         minHeight = 20;
-        maxHeight = 200;
+        maxHeight = 100;
         height = Math.floor(Math.random() * (maxHeight - minHeight + 1) + minHeight);
         minGap = 50;
         maxGap = 200;
